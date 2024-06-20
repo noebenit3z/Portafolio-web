@@ -1,17 +1,11 @@
 h2 { 
     color: black;
   } 
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-body{
-      font-family: 'Montserrat', sans-serif;
-  }
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 body{
     background: #f6f5f7;
     font-family: 'Montserrat', sans-serif;
     color: #3E363F;
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 body{
     background: #f6f5f7; 
     font-family: 'Montserrat', sans-serif;
@@ -33,14 +27,16 @@ h2 {
     margin-bottom: 10px;
 }
 nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width:100%;
+    background-color: #fff;
+    box-shadow: 0;
 }
 nav a {
     text-decoration: none;
-    color: black;
+    color: #333;
     padding: 10px;
     display: inline-block;
 }
@@ -56,18 +52,6 @@ section {
     border: 1px solid #ddd;
     margin-bottom: 20px;
 }
-#acerca-de-mi p {
+#acerca-de-mi {
     text-align: justify;
-}
-.menu-fijo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    transition: all 0.3s ease-in-out;
-}
-.menu-fijo.fijo {
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
